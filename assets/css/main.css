@@ -2625,11 +2625,22 @@ input, select, textarea {
 
 			ul.icons li .icon {
 				font-size: 0.8em;
+				margin-left: 15px;
 			}
 
-				ul.icons li .icon:before {
-					font-size: 2em;
+			.contact {
+				display: flex;
+				margin-top: 20px;
+			}
+				
+				.email, .phone {
+					margin: -6px 0 0 10px;
 				}
+
+					ul.icons li .icon:before {
+						font-size: 2em;
+					}
+
 
 /* Actions */
 
